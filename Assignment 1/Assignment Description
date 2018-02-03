@@ -1,0 +1,35 @@
+
+Input format sample
+
+3
+A B C
+B A C D
+C A B D
+D B C
+
+
+Compilation example
+
+python find_clique.py input_graph.txt
+
+
+Output
+
+(All cliques to be printed In terminal)
+
+A B C
+B C D
+(Output as a file)
+
+graph_image.png
+
+
+Points to note
+
+You must auto-generate the .dot file using Python
+In the generated image, you should highlight any one of the cliques. You can highlight the node by filling it with some colour
+The name of the nodes should be strings, that is, they can be multi-characters. Another sample input is as follows:
+2
+bat ball boy
+ball bat boy
+boy bat ball
